@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Baby Shower Dino</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- =========================
+         LOADER
+    ========================== -->
+
+    <div id="loader">
+
+        <div id="eggAnimation">
+
+            <img id="egg" src="img/dino/huevo.png">
+
+            <img id="eggBreaking" src="img/dino/huevorompiendose.png">
+
+            <img id="eggPeek" src="img/dino/huevorotodino.png">
+
+            <img id="babyDino" src="img/dino/dino1.png">
+
+        </div>
+
+    </div>
+
+    <!-- =========================
+         CONTENIDO
+    ========================== -->
+
+    <div id="contenido">
+
+        <div class="container">
+
+            <!-- =========================
+                 INTRO
+            ========================== -->
+
+            <section class="panel" id="intro">
+
+                <img src="img/dino/dino.png" class="respira" alt="Dinosaurio">
+
+                <h1>
+                    Nuestro pequeño dino<br>
+                    está por llegar...
+                </h1>
+
+                <p class="subtitulo">
+                    ...y estamos contando los dias para conocerlo.
+                </p>
+                
+                <button id="musicButton" aria-label="Reproducir música">
+
+                    🎵 Activá la musica para vivir la experiencia
+
+                </button>
+
+                <a href="#historia" class="boton">
+                    Comenzar la aventura
+                </a>
+
+                <div class="scrollDown">
+
+                    <div class="latido">🤍</div>
+
+                    <div class="flecha">↓</div>
+
+                </div>
+
+            </section>
+
+            <!-- =========================
+                 HISTORIA
+            ========================== -->
+
+            <section class="panel" id="historia">
+
+                <div class="hero-grid">
+
+                    <div class="hero-texto">
+
+                        <h2>Baby Shower</h2>
+
+                        <div class="linea"></div>
+
+                        <p>
+
+                            Estamos viviendo la aventura más hermosa de nuestras vidas
+                            y queremos compartir este momento tan especial con vos.
+
+                        </p>
+
+                    </div>
+
+                    <div class="hero-foto">
+
+                        <img
+                            src="img/fotos/embarazo.jpg"
+                            alt="Foto del embarazo">
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- =========================
+                 INFORMACIÓN
+            ========================== -->
+
+            <section class="panel" id="evento">
+
+                <h2>Información</h2>
+
+                <div class="cards">
+
+                    <div class="card">
+
+                        <h4>📅 FECHA</h4>
+
+                        <p>
+                            Sábado 01 de Agosto de 2026
+                        </p>
+
+                    </div>
+
+                    <div class="card">
+
+                        <h4>🕓 HORA</h4>
+
+                        <p>
+                            16:00 hs.
+                        </p>
+
+                    </div>
+
+                    <div class="card">
+
+                        <h4>📍 LUGAR</h4>
+
+                        <p>
+                            Yuchan sur N° 138 - Los Perales
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- =========================
+                 GALERÍA
+            ========================== -->
+                        <section class="panel" id="galeria">
+
+                <div class="contenido">
+
+                    <h2>Nuestro camino hasta conocerte</h2>
+
+                    <p class="subtitulo">
+                        Cada latido nos acerca un poquito más a vos 💚
+                    </p>
+
+                    <div class="galeria">
+
+                        <img class="fotoRecuerdo" src="img/fotos/foto1.jpg" alt="Foto 1">
+
+                        <img class="fotoRecuerdo" src="img/fotos/foto2.jpg" alt="Foto 2">
+
+                        <img class="fotoRecuerdo" src="img/fotos/foto3.jpg" alt="Foto 3">
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- =========================
+                 CONTADOR
+            ========================== -->
+
+            <section class="panel" id="contadorSeccion">
+
+                <div class="contenido">
+
+                    <h2>Falta muy poquito...</h2>
+
+                    <div id="contador">
+
+                        <div class="tiempo">
+                            <span id="dias">00</span>
+                            <p>Días</p>
+                        </div>
+
+                        <div class="tiempo">
+                            <span id="horas">00</span>
+                            <p>Horas</p>
+                        </div>
+
+                        <div class="tiempo">
+                            <span id="minutos">00</span>
+                            <p>Minutos</p>
+                        </div>
+
+                        <div class="tiempo">
+                            <span id="segundos">00</span>
+                            <p>Segundos</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- =========================
+                 CONFIRMACIÓN
+            ========================== -->
+
+            <section class="panel" id="confirmacion">
+
+                <div class="contenido">
+
+                    <h2>¿Nos acompañás?</h2>
+
+                    <p class="subtitulo">
+
+                        Por favor, confirmá tu asistencia.
+
+                    </p>
+
+                    <a
+
+                        class="boton"
+
+                        href="https://wa.me/5493885765418?text=¡Hola!%20Confirmo%20mi%20asistencia%20al%20Baby%20Shower%20🦖"
+
+                        target="_blank">
+
+                        Confirmar asistencia
+
+                    </a>
+
+                </div>
+
+            </section>
+
+            <!-- =========================
+                 UBICACIÓN
+            ========================== -->
+
+            <section class="panel" id="ubicacion">
+
+                <div class="contenido">
+
+                    <h2>¿Cómo llegar?</h2>
+
+
+                    <iframe
+
+                        class="mapa"
+
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3640.0522861116997!2d-65.32442999999999!3d-24.169899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjTCsDEwJzExLjYiUyA2NcKwMTknMjguMCJX!5e0!3m2!1ses!2sar!4v1783452752013!5m2!1ses!2sar"
+
+                        allowfullscreen>
+
+                    </iframe>
+
+                    <br><br>
+
+                    <a
+
+                        class="boton"
+
+                        target="_blank"
+
+                        href="https://maps.app.goo.gl/DSHBbtHeZPmfWimJ6">
+
+                        📍 ABRIR GOOGLE MAPS
+
+                    </a>
+
+                </div>
+
+            </section>
+
+            <!-- =========================
+                 REGALO
+            ========================== -->
+                        <section class="panel" id="regalo">
+
+                <div class="contenido">
+
+                    <h2>El mejor regalo</h2>
+
+                    <p class="subtitulo">
+
+                        Tu presencia será el regalo más importante.
+
+                        <br><br>
+
+                        Pero si además querés hacernos un mimo ...
+
+                    </p>
+
+                    <div class="regalos">
+
+                        <button id="copiarAlias" class="boton">
+
+                         <span class="icono">📋</span>
+
+                          <span id="textoAlias">COPIAR ALIAS</span>
+
+                        </button>
+
+                        <button id="abrirLista" class="boton">
+
+                          🎁 CONSULTAR LISTA DE REGALOS
+
+                     </button>
+
+                    </div>
+
+
+                </div>
+
+            </section>
+
+            <!-- =========================
+                 DESPEDIDA
+            ========================== -->
+
+            <section class="panel" id="despedida">
+
+                <div class="contenido">
+
+                    <img
+                        src="img/dino/dino.png"
+                        alt="Dinosaurio"
+                        class="respira"
+                        width="180">
+
+                    <h2>¡Te esperamos!</h2>
+
+                    <p class="subtitulo">
+
+                        Gracias por acompañarnos en uno de los momentos más felices de nuestras vidas.
+
+                        <br><br>
+
+                        Con muchísimo cariño...
+
+                    </p>
+
+                    <h3>
+
+                        Mamá ❤️ Papá ❤️ Bebé
+
+                    </h3>
+
+                </div>
+
+            </section>
+
+        </div>
+
+    </div>
+
+    <!-- =========================
+         HOJITAS
+    ========================== -->
+
+    <div id="hojas"></div>
+
+    <!-- =========================
+         AUDIO
+    ========================== -->
+
+    <audio id="musica" loop>
+
+        <source src="music/cancion.mp3" type="audio/mpeg">
+
+        Tu navegador no soporta audio.
+
+    </audio>
+
+    <!-- =========================
+         JAVASCRIPT
+    ========================== -->
+
+    <div id="modalRegalos" class="modalOculto">
+
+    <div class="modalCaja">
+
+        <button id="cerrarModal" class="cerrarModal">
+            ✕
+        </button>
+
+        <h2>Lista de Regalos</h2>
+
+        <p class="textoRegalos">
+            Si querés hacernos un mimo extra, armamos una lista con algunas cositas que todavía necesitamos.
+
+            <br><br>
+
+            <a href="https://www.thingstogetme.com/baby-shower-mateo-2026" target="_blank">
+                Ver lista de regalos 🎁
+            </a>
+        </p>
+
+        <div id="contenedorRegalos"></div>
+
+    </div>
+
+</div>
+
+    <script type="module" src="script.js"></script>
+
+</body>
+
+</html>
