@@ -1587,7 +1587,13 @@ margin:22px auto;
 .textoRegalos{
 
     text-align:center;
-    margin-bottom:40px;
+
+    line-height:1.8;
+
+    margin:25px 0;
+
+    color:#666;
+
 
 }
 
@@ -1656,6 +1662,97 @@ margin:22px auto;
     font-size: 1rem;
     color: #6f6f6f;
     font-style: italic;
+}
+
+/*==================================================
+MODAL LISTA DE REGALOS
+==================================================*/
+
+.modalOculto{
+
+    display:none;
+
+    position:fixed;
+
+    top:0;
+    left:0;
+
+    width:100%;
+    height:100%;
+
+    background:rgba(0,0,0,.55);
+
+    justify-content:center;
+    align-items:center;
+
+    z-index:99999;
+
+    padding:20px;
+
+}
+
+.modalOculto.activo{
+
+    display:flex;
+
+}
+
+.modalCaja{
+
+    position:relative;
+
+    background:#fff;
+
+    width:min(900px,95vw);
+
+    max-height:90vh;
+
+    overflow-y:auto;
+
+    border-radius:30px;
+
+    padding:50px 40px;
+
+    text-align:center;
+
+    box-shadow:0 20px 60px rgba(0,0,0,.25);
+
+}
+
+.cerrarModal{
+
+    position:absolute;
+
+    top:18px;
+
+    right:18px;
+
+    width:42px;
+
+    height:42px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:#f3f3f3;
+
+    color:#666;
+
+    font-size:22px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.cerrarModal:hover{
+
+    background:var(--verde1);
+
+    color:white;
+
 }
 
 /*==================================================
