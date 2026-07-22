@@ -1286,31 +1286,44 @@ margin:22px auto;
 ==================================================*/
 #musicButton{
 
-    display:block;
+    position: fixed;
 
-    margin:25px auto;
+    right: 25px;
 
-    padding:14px 35px;
+    bottom: 25px;
 
-    border:none;
+    width: 55px;
 
-    border-radius:50px;
+    height: 55px;
 
-    background:var(--verde1);
+    border: none;
 
-    color:white;
+    border-radius: 50%;
 
-    font-size:18px;
+    background: var(--verde1);
 
-    font-weight:600;
+    color: white;
 
-    cursor:pointer;
+    font-size: 24px;
 
-    box-shadow:0 12px 25px rgba(122,143,122,.25);
+    line-height: 1;
 
-    transition:.35s;
+    padding: 0;
+
+    cursor: pointer;
+
+    z-index: 9999;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,.18);
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
 
 }
+
 
 #musicButton:hover{
 
