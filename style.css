@@ -1306,10 +1306,6 @@ margin:22px auto;
 
     font-size: 24px;
 
-    line-height: 1;
-
-    padding: 0;
-
     cursor: pointer;
 
     z-index: 9999;
@@ -1322,6 +1318,11 @@ margin:22px auto;
 
     align-items: center;
 
+    padding: 0;
+
+    line-height: 1;
+
+    text-align: center;
 }
 
 
@@ -1644,301 +1645,17 @@ margin:22px auto;
 .textoRegalos a:hover{
     color: var(--verde2);
 }
-/*=============================
-LISTA DE REGALOS
-=============================*/
 
-#listaRegalos{
-
-    max-width:1200px;
-
-    margin:90px auto;
-
-    padding:0 20px;
-
-}
-
-#listaRegalos h2{
-
-    text-align:center;
-
-    margin-bottom:15px;
-
-}
-
-.textoRegalos{
-
-    max-width:700px;
-
-    margin:0 auto 50px;
-
-    text-align:center;
-
-    line-height:1.8;
-
-}
-
-#contenedorRegalos{
-
-    display:grid;
-
-    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-
-    gap:30px;
-
-}
-.tarjetaRegalo{
-
-    background:white;
-
-    border-radius:30px;
-
-    overflow:hidden;
-
-    box-shadow:0 18px 40px rgba(0,0,0,.08);
-
-    transition:.35s;
-
-}
-
-.tarjetaRegalo:hover{
-
-    transform:translateY(-8px);
-
-}
-.tarjetaRegalo img{
-
-    width:100%;
-
-    height:230px;
-
-    object-fit:cover;
-
-}
-.tarjetaContenido{
-
-    padding:25px;
-
-}
-.tarjetaContenido h3{
-
-    margin-bottom:15px;
-
-    font-size:26px;
-
-}
-.estado{
-
-    font-weight:600;
-
-    margin-bottom:20px;
-
-}
-
-.disponible{
-
-    color:#5D8A63;
-
-}
-
-.reservado{
-
-    color:#C2876C;
-
-}
-.botonReserva{
-
-    width:100%;
-
-    border:none;
-
-    padding:15px;
-
-    border-radius:15px;
-
-    cursor:pointer;
-
-    font-size:17px;
-
-    background:var(--verde1);
-
-    color:white;
-
-    transition:.3s;
-
-}
-
-.botonReserva:hover{
-
-    transform:scale(1.03);
-
-}
-.modalOculto{
-
-    position:fixed;
-    inset:0;
-
-    background:rgba(0,0,0,.55);
-
-    display:flex;
-
-    justify-content:center;
-    align-items:center;
-
-    opacity:0;
-    pointer-events:none;
-
-    transition:.3s;
-
-    z-index:999999;
-
-}
-
-.modalOculto.activo{
-
-    opacity:1;
-    pointer-events:auto;
-
-}
-.modalCaja{
-
-    width:min(900px,92vw);
-
-    max-height:85vh;
-
-    overflow-y:auto;
-
-    background:white;
-
-    border-radius:25px;
-
-    padding:35px;
-
-    position:relative;
-
-}
-.cerrarModal{
-
-    position:absolute;
-
-    top:15px;
-    right:15px;
-
-    border:none;
-
-    background:none;
-
-    font-size:28px;
-
-    cursor:pointer;
-
-}
 /* ==========================
-   MODAL RESERVA
+   NOTA ADULTOS
 ========================== */
 
-.inputNombre{
-
-    width:100%;
-
-    padding:14px;
-
-    margin:20px 0;
-
-    border:2px solid #DCE8D8;
-
-    border-radius:12px;
-
-    font-size:16px;
-
-    outline:none;
-
-    box-sizing:border-box;
-
-}
-
-.inputNombre:focus{
-
-    border-color:#8CCB98;
-
-}
-
-.accionesModal{
-
-    display:flex;
-
-    gap:15px;
-
-    justify-content:center;
-
-    margin-top:10px;
-
-}
-
-.accionesModal button{
-
-    flex:1;
-
-}
-.detalleRegalo{
-
-    margin:12px 0;
-
-    color:#666;
-
-    font-size:15px;
-
-    line-height:1.6;
-
-    white-space:normal;
-
-}
-.botonReferencia{
-
-    display:inline-block;
-
-    margin:10px 0;
-
-    padding:8px 14px;
-
-    border-radius:20px;
-
-    background:#E8F6E8;
-
-    color:#3F7D4C;
-
-    text-decoration:none;
-
-    font-size:14px;
-
-    font-weight:600;
-
-    transition:.25s;
-
-}
-
-.botonReferencia:hover{
-
-    background:#CFEED2;
-
-    transform:translateY(-2px);
-
-}
-
-.tituloCategoria{
-
-    margin:35px 0 15px;
-
-    padding-bottom:8px;
-
-    border-bottom:2px solid #DCE8D8;
-
-    color:#4D7C59;
-
-    font-size:24px;
-
-    font-weight:700;
-
+.notaAdultos{
+    margin-top:20px;
+    font-size:1rem;
+    color:#6f6f6f;
+    text-align:center;
+    font-style:italic;
 }
 
 /*==================================================
